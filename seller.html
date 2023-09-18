@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel do vendedor</title>
+
+    <link rel="stylesheet" href="css/signup.css">
+    <link rel="stylesheet" href="css/seller.css">
+
+</head>
+<body>
+
+
+     <div class="alert-box">
+        <img src="img/error.png" class="alert-img" alt="">
+        <p class="alert-msg">Mensagem inválida</p>
+     </div>
+    
+     <img src="img/logo33..png" class="logo" alt="">
+
+     <div class ="become-seller hide">
+        <p class="heading">Torne-se um vendedor</p>
+        <p class = "des">Entre para o time de vendas da Smart Store e fature mais do que o esperado.</p>
+        <button class="btn" id="apply-btn">Solicitar conta de vendedor</button>
+     </div>
+
+     <div class="apply-form">
+        <input type="text" id="business-name" placeholder="Nome do negócio / Nome da companhia / Nome da loja">
+        <textarea id="business-add" placeholder="endereço"></textarea>
+        <textarea id="sobre" placeholder="sobre"></textarea>
+        <input type="text" id="numero" placeholder="numero">
+        <input type="checkbox" checked class="checkbox" id="terms-and-cond">
+        <label for="terms-and-cond">Concorda com os nossos termos <a href="">Termos e condições</a></label>
+        <br>
+        <input type="checkbox" checked class="checkbox" id="legitInfo">
+        <label for="legitInfo">Todas as informações são legais</a></label>
+        <button class="submit-btn" id="apply-form-btn">aplicar</button>
+     </div>
+
+     <div class="product-listing hide">
+        <div class="add-product">
+            <p class="add-product-title">Adicionar produtos</p>
+            <button class="btn">Adicionar produtos</button>
+        </div>
+        <img src="img/no-products.png" class="no-product-image" alt="">
+     </div>
+
+    <script src="js/token.js"></script>
+    <script src="js/seller.js"></script>
+
+
+</body>
+</html>
